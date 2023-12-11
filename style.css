@@ -54,14 +54,20 @@ div {
     width: min(300px, 80%);
 }
 
-.project_description {
+.project_title {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.project_description p{
+.project_title h2{
     font-size: 1.4em;
+}
+
+.project_description {
+    padding: 20px;
+    padding-top: 0;
+    text-align: justify;
 }
 
 .project_image {
